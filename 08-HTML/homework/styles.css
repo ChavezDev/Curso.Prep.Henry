@@ -1,0 +1,49 @@
+body{
+    background-image: url(/08-HTML/img/pexels-amanda-kerr-90597.jpg);
+    background-size: 100% 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.divClass h1 {
+    color: red;
+}
+.divClass h3 {
+    font-size: 30px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: solid 2px blue;
+}
+
+#thirdDiv img{
+    width: 400px;
+}
+
+#thirdDiv li{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
